@@ -1,0 +1,66 @@
+#dicecontainer
+{
+	display:block;
+	height:60px;
+	width:60px;
+	cursor:pointer;
+}
+.dice
+{
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	position:relative;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.hidden
+{
+	display:none;
+	visibility:hidden;
+}
+.dot
+{
+	display:block;
+	height:12px;
+	width:12px;
+	border-radius:100%;
+	background:black;
+	transform:translate(-50%,-50%);
+	position:absolute;
+}
+.dot:first-child
+{
+	left:50%;
+	top:50%;
+}
+.dot:nth-child(2)
+{
+	left:25%;
+	top:75%;
+}
+.dot:nth-child(3)
+{
+	left:75%;
+	top:25%;
+}
+.dot:nth-child(4)
+{
+	left:75%;
+	top:75%;
+}
+.dot:nth-child(5)
+{
+	left:25%;
+	top:25%;
+}
+.dot:nth-child(6)
+{
+	left:25%;
+	top:50%;
+}.dot:nth-child(7)
+{
+	left:75%;
+	top:50%;
+}
